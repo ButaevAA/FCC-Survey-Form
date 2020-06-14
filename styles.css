@@ -3,6 +3,7 @@ font-style: normal;
 text-align: center;
 font-size : 38;
 color: rgb(241, 237, 231);
+
 }
 #description{
     font-style: italic;
@@ -14,22 +15,21 @@ color: rgb(241, 237, 231);
     }
     .main{
      background-color: antiquewhite;   
-     margin-left: auto;
-     margin-right: auto;
+     margin-left: 20%;
+     margin-right: 20%;
      margin-top: auto;
      margin-bottom: auto;
      background-image: url(https://tax.thomsonreuters.com/blog/wp-content/uploads/sites/17/2020/04/GettyImages-1161683825-370x208.jpg);
-     background-image: ;
+     width: 540px;
+     height: 100px;
     }
 
      .survey-form-field{
     background-color: burlywood;
-    margin-left: ;
-
+   padding: 2.5rem;
+   
 }
-#survey-form{
 
-}
 #main-form{
     background-color: darkcyan;
     align-items: center;
@@ -39,5 +39,13 @@ color: rgb(241, 237, 231);
     color:whitesmoke;
     padding-left: 0%;
     text-align: center;
+    width: 540px;
+    height: 1470px;
+    margin-left : 20%;
+    margin-right: 20%;
 }
- 
+
+#name{
+    text-align: center;
+    font-size: 25px;
+}
