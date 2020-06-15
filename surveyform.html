@@ -15,11 +15,74 @@
 
 <div id="main-form">
     <form  id="survey-form">  
-        <label for="name"> Name: </label> <br>
+        
+        <label id="name-label" for="name"> Name: </label> <br>
             <input type="text" id="name" name="name" placeholder="enter your name" required><br>
-        <label for="email"> Email: </label> <br>
-            <input type="text" id="email" name="email" placeholder="enter your email" required><br>
-        </form>
+       
+            <label id="email-label" for="email"> Email: </label> <br>
+            <input type="email" id="email" name="email" placeholder="enter your email" required><br> 
+       
+            <label id="number-label" for="number"> Age (optional) </label> <br>
+            <input type="number" id="number" name="number" placeholder="Age" required min="20" max="100" > <br> 
+        <div>    
+            <p>Please, choose the model of your car</p>
+            <select name="dropdown" id="dropdown" required>
+                <option disabled selected value> car models</option>
+                <option value="bmw"> BMW </option>
+                <option value="toyota"> Toyota</option>
+                <option value="daewoo"> Daewoo</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="Tesla"> Tesla</option>
+
+            </select>
+        </div>
+        <div>
+          <p>Please choose time of delivery</p>
+        <label>
+          <input type="radio"  name="days" value="monday">
+        Monday 
+        </label><br>
+        
+        <label>
+            <input type="radio"  name="days" value="monday">
+        Tuesday 
+        </label><br>
+        
+        <label>
+                <input type="radio"  name="days" value="monday">
+        Wednesday 
+        </label><br>
+        </div>
+        <div id="types-police">
+         <p>
+            What police would you like to buy online?
+         </p>       
+         <label >
+             <input name="types" type="checkbox" value="auto-insurance" class="class-checkbox">
+             Auto-insurance
+         </label> <br>
+        
+            <input name="types" type="checkbox" value="travel-insurance" class="class-checkbox" >
+            Travel-insurance
+        </label> <br>
+        <label >
+            <input name="types" type="checkbox" value="health-insurance" class="class-checkbox" >
+            Health-insurance
+        </label> <br>
+
+        <label >
+            <input name="types" type="checkbox" value="home-insurance" class="class-checkbox" >
+            Home-insurance 
+        </label>
+    </div>
+    <div>
+   <p> Please, leave your comments below. </p>
+        <textarea name="comments" id="comments" cols="30" rows="10">
+      Enter your comments...
+    </textarea> <br>
+    <button id="submit"> Submit</button>
+   </div>
+    </form>
 </div>
 </body>
 </html>

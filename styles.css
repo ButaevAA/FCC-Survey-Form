@@ -26,26 +26,43 @@ color: rgb(241, 237, 231);
 
      .survey-form-field{
     background-color: burlywood;
-   padding: 2.5rem;
-   
+    padding: 2.5rem;
+    border-radius: 0.25 rem;
+    
 }
 
 #main-form{
-    background-color: darkcyan;
+    background-color: wheat;
     align-items: center;
     justify-content: center;
     display: block;
     padding-top: 2%;
-    color:whitesmoke;
+    color:rgb(17, 15, 15);
     padding-left: 0%;
     text-align: center;
     width: 540px;
     height: 1470px;
     margin-left : 20%;
     margin-right: 20%;
+    font-size: 25px;
+    
 }
 
 #name{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+}
+#email{
+    text-align: center;
+    font-size: 20px;
+}
+.class-checkbox{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+#types-police{
+text-align: center;
+justify-content: center;
 }
